@@ -1,0 +1,128 @@
+body {
+    font-family: "Trebuchet MS, sans-serif", cursive;/* tipo de letra general */
+    font-size: 16px; /* tamaño base del texto */
+    background-color: #999999d1; /* fondo gris muy claro */
+    color: #333333; /* color del texto */
+}
+header {
+    background-color: #333; /* Fondo oscuro */
+    color: white;           /* Texto en blanco */
+    padding: 20px;          /* Espaciado interno */
+    text-align: center;     /* Centrar el contenido */
+}
+nav ul {
+    list-style-type: none;   /* Quita los puntos de la lista */
+    padding: 0;              /* Elimina el espacio extra */
+    margin: 0;
+    display: flex;           /* Pone los ítems en fila */
+    justify-content: center; /* Centra el menú */
+    gap: 20px;               /* Espacio entre enlaces */
+}
+
+nav a {
+    text-decoration: none;   /* Quita el subrayado */
+    color: white;            /* Color de texto */
+    font-weight: bold;       /* Texto más fuerte */
+}
+
+nav a:hover {
+    color: lightblue;        /* Efecto al pasar el mouse */
+}
+/* Quitar los puntitos y centrar los enlaces */
+nav ul {
+    list-style-type: none;   /* quita los puntos */
+    margin: 0;
+    padding: 0;
+    display: flex;           /* coloca los elementos en fila */
+    justify-content: center; /* centra el menú */
+    gap: 30px;               /* espacio entre los enlaces */
+}
+
+/* Opcional: si quieres que no se vean apretados en pantallas pequeñas */
+nav li {
+    display: inline; /* asegura que los <li> estén en línea */
+}
+nav a {
+    text-decoration: none;   /* quita el subrayado */
+    color: white;            /* color de texto */
+    font-weight: bold;       /* más grueso */
+    font-size: 18px;         /* tamaño de letra */
+    transition: color 0.3s;  /* animación suave al pasar el mouse */
+}
+
+/* Efecto al pasar el mouse */
+nav a:hover {
+    color: lightblue; /* cambia de color */
+}
+nav {
+    position: fixed;       /* se queda fijo aunque hagas scroll */
+    top: 0;                /* siempre arriba */
+    left: 0;
+    width: 100%;           /* ocupa todo el ancho */
+    background-color: #222; /* color de fondo oscuro */
+    padding: 15px 0;       /* espacio interno arriba y abajo */
+    z-index: 1000;         /* para que quede encima del resto */
+}
+nav ul {
+    list-style-type: none;   /* sin puntitos */
+    margin: 0;
+    padding: 0;
+    display: flex;           /* menú horizontal */
+    justify-content: center; /* centrado */
+    gap: 40px;               /* espacio entre enlaces */
+}
+
+nav li {
+    display: inline; /* asegura que estén en fila */
+}
+nav a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+body {
+    margin: 0;
+    padding-top: 70px; /* deja espacio para que el nav fijo no tape el contenido */
+    font-family: Trebuchet MS, sans-serif;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 15px 0;
+    z-index: 1000;
+
+    /* 👇 sombra para dar efecto flotante */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+/* --- Footer --- */
+footer {
+    background-color: #222;   /* Un color oscuro distinto */
+    color: white;             /* Texto blanco para contraste */
+    text-align: center;       /* Centrado */
+    padding: 10px;
+}
+
+/* --- Listas (li) --- */
+li {
+    display: inline-block;   /* Que se acomoden en fila */
+    width: 30%;              /* Cada ítem ocupa un ancho fijo */
+    text-align: center;      /* Centrar el texto dentro */
+}
+
+/* --- Párrafos (p) --- */
+p {
+    line-height: 1.6;        /* Espaciado entre líneas */
+}
+li {
+    display: inline-block;  /* los pone en fila */
+    width: 150px;          /* cada item mide lo mismo */
+}
